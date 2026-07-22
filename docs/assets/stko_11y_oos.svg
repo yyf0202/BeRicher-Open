@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img">
+<title>TensorAlpha · STK-O 11-Year OOS Profile</title>
+<desc>Normalized NAV checkpoints and full-run aggregate metrics from the documented Purged K-Fold OOS research evaluation.</desc>
+<style>.title { font: 700 28px Inter, Segoe UI, sans-serif; fill: #172033; }
+    .subtitle { font: 400 14px Inter, Segoe UI, sans-serif; fill: #667085; }
+    .panel-title { font: 650 16px Inter, Segoe UI, sans-serif; fill: #172033; }
+    .label { font: 500 12px Inter, Segoe UI, sans-serif; fill: #172033; }
+    .muted { font: 400 11px Inter, Segoe UI, sans-serif; fill: #667085; }
+    .mono { font: 600 12px ui-monospace, SFMono-Regular, Consolas, monospace; fill: #172033; }
+    .grid { stroke: #D9DEE8; stroke-width: 1; shape-rendering: crispEdges; }
+    .axis { stroke: #667085; stroke-width: 1.2; shape-rendering: crispEdges; }</style>
+<rect width="1200" height="620" fill="#FAFAF8"/>
+<g aria-label="TensorAlpha mark" transform="translate(1137 43)"><circle cx="0" cy="-9" r="6" fill="#2367C9"/><circle cx="9" cy="0" r="6" fill="#C28A16"/><circle cx="0" cy="9" r="6" fill="#8CB9F2"/><circle cx="-9" cy="0" r="6" fill="#F4E4B6" stroke="#C28A16"/></g>
+<text x="58.0" y="52.0" class="title" text-anchor="start">TensorAlpha · STK-O 11-Year OOS Profile</text>
+<text x="58.0" y="78.0" class="subtitle" text-anchor="start">Purged K-Fold OOS · 2015-04-07 to 2026-03-16 · 50-trading-day checkpoints · After modeled costs</text>
+<rect x="58.0" y="100" width="250" height="58" rx="6" fill="#FFFFFF" stroke="#D9DEE8"/>
+<text x="72.0" y="122.0" class="muted" text-anchor="start">Cumulative return</text>
+<text x="72.0" y="147.0" class="panel-title" text-anchor="start">+324.37%</text>
+<rect x="331.0" y="100" width="250" height="58" rx="6" fill="#FFFFFF" stroke="#D9DEE8"/>
+<text x="345.0" y="122.0" class="muted" text-anchor="start">CAGR</text>
+<text x="345.0" y="147.0" class="panel-title" text-anchor="start">+14.68%</text>
+<rect x="604.0" y="100" width="250" height="58" rx="6" fill="#FFFFFF" stroke="#D9DEE8"/>
+<text x="618.0" y="122.0" class="muted" text-anchor="start">Full-run max drawdown</text>
+<text x="618.0" y="147.0" class="panel-title" text-anchor="start">-55.88%</text>
+<rect x="877.0" y="100" width="250" height="58" rx="6" fill="#FFFFFF" stroke="#D9DEE8"/>
+<text x="891.0" y="122.0" class="muted" text-anchor="start">Sharpe</text>
+<text x="891.0" y="147.0" class="panel-title" text-anchor="start">0.5894</text>
+<text x="58.0" y="184.0" class="panel-title" text-anchor="start">Historical research · Not live performance</text>
+<text x="1144.0" y="184.0" class="muted" text-anchor="end">Normalized NAV</text>
+<line x1="92.0" y1="492.0" x2="1144.0" y2="492.0" class="grid"/>
+<text x="80.0" y="496.0" class="muted" text-anchor="end">0.00</text>
+<line x1="92.0" y1="421.5" x2="1144.0" y2="421.5" class="grid"/>
+<text x="80.0" y="425.5" class="muted" text-anchor="end">1.12</text>
+<line x1="92.0" y1="351.0" x2="1144.0" y2="351.0" class="grid"/>
+<text x="80.0" y="355.0" class="muted" text-anchor="end">2.25</text>
+<line x1="92.0" y1="280.5" x2="1144.0" y2="280.5" class="grid"/>
+<text x="80.0" y="284.5" class="muted" text-anchor="end">3.38</text>
+<line x1="92.0" y1="210.0" x2="1144.0" y2="210.0" class="grid"/>
+<text x="80.0" y="214.0" class="muted" text-anchor="end">4.50</text>
+<line x1="92.0" y1="429.3" x2="1144.0" y2="429.3" stroke="#667085" stroke-dasharray="5 4"/>
+<polyline points="92.0,429.3 111.4,400.8 131.2,439.6 151.0,425.0 170.8,431.7 190.6,425.8 210.3,426.8 230.1,420.5 249.9,408.7 269.7,415.9 289.5,418.4 309.3,424.0 329.1,423.0 348.9,430.2 368.7,434.4 388.4,435.8 408.2,443.2 428.0,445.2 447.8,443.6 467.6,440.7 487.4,434.4 507.2,437.4 527.0,437.9 546.8,437.0 566.5,437.6 586.3,445.3 606.1,433.8 625.9,428.2 645.7,426.0 665.5,417.6 685.3,410.5 705.1,411.6 724.9,407.5 744.7,391.9 764.4,393.1 784.2,377.1 804.0,365.0 823.8,372.8 843.6,368.7 863.4,361.3 883.2,353.5 903.0,346.7 922.8,337.0 942.5,343.1 962.3,347.5 982.1,362.7 1001.9,368.2 1021.7,317.6 1041.5,308.8 1061.3,297.0 1081.1,275.4 1100.9,262.7 1120.6,247.3 1140.4,229.5 1144.0,226.1" fill="none" stroke="#2367C9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="92.0" y="516.0" class="muted" text-anchor="middle">2015</text>
+<text x="309.3" y="516.0" class="muted" text-anchor="middle">2017</text>
+<text x="527.0" y="516.0" class="muted" text-anchor="middle">2019</text>
+<text x="724.9" y="516.0" class="muted" text-anchor="middle">2021</text>
+<text x="942.5" y="516.0" class="muted" text-anchor="middle">2024</text>
+<text x="1144.0" y="516.0" class="muted" text-anchor="middle">2026</text>
+<text x="58.0" y="552.0" class="muted" text-anchor="start">55 exact logged NAV checkpoints · No interpolation · No security-level records</text>
+<text x="58.0" y="574.0" class="muted" text-anchor="start">Full-run max drawdown is from the original daily run, not the checkpoint series.</text>
+<text x="58.0" y="596.0" class="muted" text-anchor="start">Historical research only · Modeled execution costs · Not investment advice</text>
+</svg>

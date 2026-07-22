@@ -1,0 +1,10 @@
+{
+  "command": "demo",
+  "arguments": {
+    "output": "artifacts/demo",
+    "days": 260,
+    "assets": 40,
+    "seed": 42,
+    "top_n": 10
+  }
+}

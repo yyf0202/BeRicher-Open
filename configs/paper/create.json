@@ -1,0 +1,8 @@
+{
+  "command": "paper-create",
+  "arguments": {
+    "account": "artifacts/paper/demo",
+    "initial_cash": 1000000,
+    "top_n": 10
+  }
+}

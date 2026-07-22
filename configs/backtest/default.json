@@ -1,0 +1,10 @@
+{
+  "command": "backtest",
+  "arguments": {
+    "market": "data/market.parquet",
+    "signals": "artifacts/oof/oof_predictions.parquet",
+    "output": "artifacts/backtest",
+    "initial_cash": 1000000,
+    "top_n": 10
+  }
+}

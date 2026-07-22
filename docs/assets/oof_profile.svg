@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 710" role="img">
+<title>TensorAlpha OOF Coverage &amp; Daily Rank Scores</title>
+<desc>Annual aggregate OOF prediction counts and daily rank-score quantile bands from 2015 through 2026.</desc>
+<style>.title { font: 700 28px Inter, Segoe UI, sans-serif; fill: #172033; }
+    .subtitle { font: 400 14px Inter, Segoe UI, sans-serif; fill: #667085; }
+    .panel-title { font: 650 16px Inter, Segoe UI, sans-serif; fill: #172033; }
+    .label { font: 500 12px Inter, Segoe UI, sans-serif; fill: #172033; }
+    .muted { font: 400 11px Inter, Segoe UI, sans-serif; fill: #667085; }
+    .mono { font: 600 12px ui-monospace, SFMono-Regular, Consolas, monospace; fill: #172033; }
+    .grid { stroke: #D9DEE8; stroke-width: 1; shape-rendering: crispEdges; }
+    .axis { stroke: #667085; stroke-width: 1.2; shape-rendering: crispEdges; }</style>
+<rect width="1200" height="710" fill="#FAFAF8"/>
+<g aria-label="TensorAlpha mark" transform="translate(1137 43)"><circle cx="0" cy="-9" r="6" fill="#2367C9"/><circle cx="9" cy="0" r="6" fill="#C28A16"/><circle cx="0" cy="9" r="6" fill="#8CB9F2"/><circle cx="-9" cy="0" r="6" fill="#F4E4B6" stroke="#C28A16"/></g>
+<text x="58.0" y="52.0" class="title" text-anchor="start">TensorAlpha · OOF Coverage &amp; Daily Rank Scores</text>
+<text x="58.0" y="78.0" class="subtitle" text-anchor="start">10.7M aggregate predictions · 2015-04-07 to 2026-04-10</text>
+<text x="58.0" y="118.0" class="panel-title" text-anchor="start">Annual OOF predictions</text>
+<text x="270.0" y="118.0" class="muted" text-anchor="start">Calendar-year counts; 2015 and 2026 are partial</text>
+<line x1="92.0" y1="314.0" x2="1144.0" y2="314.0" class="grid"/>
+<text x="80.0" y="318.0" class="muted" text-anchor="end">0</text>
+<line x1="92.0" y1="228.0" x2="1144.0" y2="228.0" class="grid"/>
+<text x="80.0" y="232.0" class="muted" text-anchor="end">700K</text>
+<line x1="92.0" y1="142.0" x2="1144.0" y2="142.0" class="grid"/>
+<text x="80.0" y="146.0" class="muted" text-anchor="end">1.4M</text>
+<line x1="92.0" y1="314.0" x2="1144.0" y2="314.0" class="axis"/>
+<rect x="108.7" y="262.9" width="54.4" height="51.1" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="135.8" y="336.0" class="muted" text-anchor="middle">2015</text>
+<rect x="196.3" y="236.6" width="54.4" height="77.4" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="223.5" y="336.0" class="muted" text-anchor="middle">2016</text>
+<rect x="284.0" y="226.5" width="54.4" height="87.5" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="311.2" y="336.0" class="muted" text-anchor="middle">2017</text>
+<rect x="371.7" y="214.7" width="54.4" height="99.3" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="398.8" y="336.0" class="muted" text-anchor="middle">2018</text>
+<rect x="459.3" y="206.6" width="54.4" height="107.4" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="486.5" y="336.0" class="muted" text-anchor="middle">2019</text>
+<rect x="547.0" y="200.4" width="54.4" height="113.6" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="574.2" y="336.0" class="muted" text-anchor="middle">2020</text>
+<rect x="634.7" y="186.0" width="54.4" height="128.0" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="661.8" y="336.0" class="muted" text-anchor="middle">2021</text>
+<rect x="722.3" y="173.2" width="54.4" height="140.8" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="749.5" y="336.0" class="muted" text-anchor="middle">2022</text>
+<rect x="810.0" y="162.0" width="54.4" height="152.0" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="837.2" y="336.0" class="muted" text-anchor="middle">2023</text>
+<rect x="897.7" y="155.9" width="54.4" height="158.1" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="924.8" y="336.0" class="muted" text-anchor="middle">2024</text>
+<rect x="985.3" y="153.4" width="54.4" height="160.6" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="1012.5" y="336.0" class="muted" text-anchor="middle">2025</text>
+<rect x="1073.0" y="271.9" width="54.4" height="42.1" rx="2" fill="#F4E4B6" stroke="#C28A16"/>
+<text x="1100.2" y="336.0" class="muted" text-anchor="middle">2026</text>
+<text x="58.0" y="382.0" class="panel-title" text-anchor="start">Daily rank score: 0 = lowest, 1 = highest</text>
+<line x1="92.0" y1="628.0" x2="1144.0" y2="628.0" class="grid"/>
+<text x="80.0" y="632.0" class="muted" text-anchor="end">0.00</text>
+<line x1="92.0" y1="574.5" x2="1144.0" y2="574.5" class="grid"/>
+<text x="80.0" y="578.5" class="muted" text-anchor="end">0.25</text>
+<line x1="92.0" y1="521.0" x2="1144.0" y2="521.0" class="grid"/>
+<text x="80.0" y="525.0" class="muted" text-anchor="end">0.50</text>
+<line x1="92.0" y1="467.5" x2="1144.0" y2="467.5" class="grid"/>
+<text x="80.0" y="471.5" class="muted" text-anchor="end">0.75</text>
+<line x1="92.0" y1="414.0" x2="1144.0" y2="414.0" class="grid"/>
+<text x="80.0" y="418.0" class="muted" text-anchor="end">1.00</text>
+<polygon points="135.8,424.6 223.5,424.1 311.2,425.0 398.8,424.4 486.5,424.6 574.2,425.2 661.8,424.5 749.5,425.1 837.2,424.4 924.8,425.1 1012.5,424.7 1100.2,423.9 1100.2,616.9 1012.5,616.5 924.8,616.8 837.2,617.6 749.5,616.8 661.8,617.0 574.2,617.2 486.5,617.3 398.8,617.7 311.2,617.3 223.5,616.7 135.8,616.3" fill="#DCEAFF" stroke="#8CB9F2" stroke-dasharray="5 4"/>
+<polygon points="135.8,466.9 223.5,466.7 311.2,466.1 398.8,468.1 486.5,466.7 574.2,469.6 661.8,467.7 749.5,466.9 837.2,467.0 924.8,467.9 1012.5,467.8 1100.2,466.9 1100.2,573.5 1012.5,574.1 924.8,574.7 837.2,574.0 749.5,573.5 661.8,575.0 574.2,574.9 486.5,573.9 398.8,575.2 311.2,574.5 223.5,574.5 135.8,574.0" fill="#8CB9F2" fill-opacity="0.62" stroke="#2367C9"/>
+<polyline points="135.8,519.5 223.5,520.5 311.2,520.8 398.8,521.5 486.5,520.4 574.2,522.3 661.8,522.3 749.5,519.7 837.2,521.3 924.8,522.8 1012.5,521.8 1100.2,520.3" fill="none" stroke="#164B96" stroke-width="2.4"/>
+<circle cx="135.8" cy="519.5" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="223.5" cy="520.5" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="311.2" cy="520.8" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="398.8" cy="521.5" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="486.5" cy="520.4" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="574.2" cy="522.3" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="661.8" cy="522.3" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="749.5" cy="519.7" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="837.2" cy="521.3" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="924.8" cy="522.8" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="1012.5" cy="521.8" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<circle cx="1100.2" cy="520.3" r="3.2" fill="#FAFAF8" stroke="#164B96"/>
+<rect x="520" y="367" width="20" height="10" fill="#DCEAFF" stroke="#8CB9F2"/>
+<text x="548.0" y="376.0" class="muted" text-anchor="start">Middle 90% (P05–P95)</text>
+<rect x="704" y="367" width="20" height="10" fill="#8CB9F2" stroke="#2367C9"/>
+<text x="732.0" y="376.0" class="muted" text-anchor="start">Middle 50% (P25–P75)</text>
+<line x1="900" y1="372" x2="924" y2="372" stroke="#164B96" stroke-width="2.4"/>
+<text x="932.0" y="376.0" class="muted" text-anchor="start">Median daily rank</text>
+<text x="58.0" y="682.0" class="muted" text-anchor="start">Source: aggregate OOF statistics only · No securities, prices, returns, or account data</text>
+</svg>

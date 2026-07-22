@@ -1,0 +1,16 @@
+{
+  "command": "oof",
+  "arguments": {
+    "market": "data/market.parquet",
+    "output": "artifacts/oof",
+    "sequence_length": 60,
+    "horizon": 1,
+    "folds": 5,
+    "purge_days": 20,
+    "min_train_days": 756,
+    "epochs": 20,
+    "batch_size": 512,
+    "device": "cpu",
+    "seed": 42
+  }
+}

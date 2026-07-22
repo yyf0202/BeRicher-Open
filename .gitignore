@@ -1,0 +1,37 @@
+# Credentials and local overrides
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+
+# Runtime data and artifacts
+/data/
+/artifacts/
+/logs/
+/outputs/
+/paper_trading_data/
+/saved_models/
+*.parquet
+!examples/data/*.parquet
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,71 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tensoralpha"
+version = "0.1.0"
+description = "End-to-end Transformer research, backtesting, and paper-trading toolkit for equities"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "TensorAlpha contributors"}]
+keywords = ["quantitative-finance", "transformer", "backtesting", "paper-trading"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.0,<3",
+  "pyarrow>=14,<22",
+  "scipy>=1.11,<2",
+  "torch>=2.2,<3",
+  "tqdm>=4.66,<5",
+]
+
+[project.optional-dependencies]
+data = ["tushare>=1.4,<2"]
+analysis = ["matplotlib>=3.8,<4", "seaborn>=0.13,<1", "statsmodels>=0.14,<1"]
+dev = [
+  "build>=1.2,<2",
+  "pytest>=8,<10",
+  "pytest-cov>=5,<8",
+  "ruff>=0.12,<1",
+]
+all = [
+  "tushare>=1.4,<2",
+  "matplotlib>=3.8,<4",
+  "seaborn>=0.13,<1",
+  "statsmodels>=0.14,<1",
+]
+
+[project.scripts]
+tensoralpha = "tensoralpha.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yyf0202/TensorAlpha"
+Documentation = "https://github.com/yyf0202/TensorAlpha/tree/main/docs"
+Issues = "https://github.com/yyf0202/TensorAlpha/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tensoralpha"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["tests"]
+markers = ["slow: tests that train a model or process a larger panel"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+extend-exclude = ["examples/data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
